@@ -21,7 +21,7 @@ func input() string {
 func isPalindrome(word string) bool {
 	i := 0
 	j := len(word) - 1
-	for i != j {
+	for i < j {
 		if word[i] != word[j] {
 			return false
 		}
